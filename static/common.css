@@ -4,10 +4,16 @@
 h2{}
 
 /*class selector-anything with class attribute emph*/
-.emph{}
+.bold{}
 
 /*class selector-within "p" anything with emph*/
-p.emph{}
+p.bold{
+    font-weight: bold
+}
+
+p.ital{
+    font-style: italic;
+}
 
 /*id selector*/
 #location{}
