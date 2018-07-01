@@ -15,6 +15,11 @@ p.ital{
     font-style: italic;
 }
 
+/* for images from wiki. To make the credit smaller */
+img.extiw{
+    font-size: xx-small;
+}
+
 /*id selector*/
 #location{}
 
