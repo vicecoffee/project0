@@ -1,0 +1,30 @@
+/* REQUIREMENTS */
+
+/* type selector*/
+h2{}
+
+/*class selector-anything with class attribute emph*/
+.emph{}
+
+/*class selector-within "p" anything with emph*/
+p.emph{}
+
+/*id selector*/
+#location{}
+
+/*child selector-only direct children*/
+li>a
+
+/*descendant selector-all children, grand children, great-etc.*/
+li a {}
+
+/* media query */
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+/* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+
