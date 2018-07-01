@@ -7,16 +7,16 @@ h2{}
 .bold{}
 
 /*class selector-within "p" anything with emph*/
-p.bold{
+p bold{
     font-weight: bold
 }
 
-p.ital{
+p ital{
     font-style: italic;
 }
 
 /* for images from wiki. To make the credit smaller */
-img.extiw{
+.extiw{
     font-size: xx-small;
 }
 
