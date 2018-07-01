@@ -4,27 +4,34 @@
 h2{}
 
 /*class selector-anything with class attribute emph*/
-.bold{}
-
-/*class selector-within "p" anything with emph*/
-p bold{
-    font-weight: bold
+.bold{
+       font-weight: bold
 }
 
-p ital{
+.ital{
     font-style: italic;
 }
 
 /* for images from wiki. To make the credit smaller */
 .extiw{
-    font-size: xx-small;
+    font-size: 0.5em;
+}
+
+
+/*class selector-within "table" anything with thead*/
+table.thead{
+
 }
 
 /*id selector*/
-#location{}
+#thislink{
+    color:MediumSeaGreen;
+}
 
 /*child selector-only direct children*/
-li>a
+table>thead{
+   text-decoration: underline
+}
 
 /*descendant selector-all children, grand children, great-etc.*/
 li a {}
