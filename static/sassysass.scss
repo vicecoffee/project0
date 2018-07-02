@@ -1,5 +1,30 @@
 /* REQUIREMANTS */
 
 /* scss variable */
+
+$color: red;
+
 /* scss inherintance */
+
+  %title {
+      font-family: sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+  }
+
+  .nav-item.active{
+      @extend %message;
+      background-color: $color;
+  }
+
 /* scss nesting */
+
+  div {
+      font-size: 18px;
+      p {
+          color: blue;
+      }
+      ul {
+          color: $color;
+      }
+  }

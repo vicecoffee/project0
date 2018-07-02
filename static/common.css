@@ -1,7 +1,9 @@
 /* REQUIREMENTS */
 
 /* type selector*/
-h2{}
+h2{
+    color:DodgerBlue;
+}
 
 /*class selector-anything with class attribute emph*/
 .bold{
@@ -17,27 +19,22 @@ h2{}
     font-size: 0.5em;
 }
 
-
-/*class selector-within "table" anything with thead*/
-table.thead{
-
-}
-
 /*id selector*/
-#thislink{
+#thatlink{
     color:MediumSeaGreen;
 }
 
 /*child selector-only direct children*/
-table>thead{
+#thislink>a{
    text-decoration: underline
 }
 
 /*descendant selector-all children, grand children, great-etc.*/
-li a {}
+p li {
+    list-style-type: armenian;
+}
 
 /* media query */
-
 @media only screen and (max-width: 600px) {
     body {
         background-color: lightblue;
