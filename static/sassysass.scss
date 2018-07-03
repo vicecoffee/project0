@@ -4,7 +4,7 @@
 
 /* scss variable */
 
-$color: red;
+$color: DeepPink;
 
 /* scss inherintance */
 
@@ -24,7 +24,7 @@ $color: red;
   body {
       font-size: 18px;
       .container {
-          color: blue;
+          color: LimeGreen;
           .col-lg {
               color: $color;
           }

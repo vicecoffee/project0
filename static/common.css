@@ -2,7 +2,7 @@
 
 /* type selector*/
 h2{
-    color:DodgerBlue;
+    color:DarkCyan;
 }
 
 img {
@@ -45,7 +45,7 @@ ol li {
 /* media query */
 @media only screen and (max-width: 600px) {
     body {
-        background-color: lightblue;
+        background-color: DarkGray;
     }
 }
 
