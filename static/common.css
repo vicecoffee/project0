@@ -5,6 +5,12 @@ h2{
     color:DodgerBlue;
 }
 
+img {
+
+    width: 100%;
+    height: auto;
+}
+
 /*class selector-anything with class attribute emph*/
 .bold{
        font-weight: bold
