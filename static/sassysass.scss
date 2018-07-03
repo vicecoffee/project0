@@ -5,6 +5,7 @@
 /* scss variable */
 
 $color: DeepPink;
+$mehcolor:  Orange
 
 /* scss inherintance */
 
@@ -25,6 +26,9 @@ $color: DeepPink;
       font-size: 18px;
       .container {
           color: LimeGreen;
+          .col-md {
+              color: $mehcolor;
+          }
           .col-lg {
               color: $color;
           }
