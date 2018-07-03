@@ -31,11 +31,13 @@ img {
 }
 
 /*child selector-only direct children*/
-#thislink>a{
+#thisitem>td{
    text-decoration: underline
 }
 
 /*descendant selector-all children, grand children, great-etc.*/
+/* I went to an Armenian bakery for the first time last week.  This style type choice is a tribute */
+
 ol li {
     list-style-type: armenian;
 }
