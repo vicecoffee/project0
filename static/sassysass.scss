@@ -5,11 +5,10 @@
 /* scss variable */
 
 $color: DeepPink;
-$mehcolor:  Orange
 
 /* scss inherintance */
 
-  %title {
+  %title{
       font-family: sans-serif;
       font-size: 18px;
       font-weight: bold;
@@ -22,15 +21,13 @@ $mehcolor:  Orange
 
 /* scss nesting */
 
+
   body {
       font-size: 18px;
       .container {
           color: LimeGreen;
-          .col-md {
-              color: $mehcolor;
           }
           .col-lg {
               color: $color;
           }
       }
-  }

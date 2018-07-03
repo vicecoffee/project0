@@ -25,6 +25,9 @@ img {
     font-size: 0.5em;
 }
 
+.col-md {
+  color: orange;
+
 /*id selector*/
 #thatlink{
     color:MediumSeaGreen;
