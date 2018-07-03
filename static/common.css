@@ -30,7 +30,7 @@ h2{
 }
 
 /*descendant selector-all children, grand children, great-etc.*/
-div li {
+ol li {
     list-style-type: armenian;
 }
 
