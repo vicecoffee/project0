@@ -25,8 +25,8 @@ $color: red;
       font-size: 18px;
       .container {
           color: blue;
-                .row {
-                    color: $color;
+          .col-lg {
+              color: $color;
           }
       }
   }
