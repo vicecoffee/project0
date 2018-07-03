@@ -11,7 +11,7 @@ img {
     height: auto;
 }
 
-/*class selector-anything with class attribute emph*/
+/*class selector-anything with class attribute bold*/
 .bold{
        font-weight: bold
 }
