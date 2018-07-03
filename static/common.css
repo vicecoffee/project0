@@ -31,7 +31,7 @@ img {
 }
 
 /*child selector-only direct children*/
-#thisitem>td{
+#thisitem > .col-sm{
    text-decoration: underline
 }
 
