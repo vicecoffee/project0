@@ -2,7 +2,7 @@
 
 /* type selector*/
 h2{
-    color:DarkCyan;
+    color: DarkCyan;
 }
 
 img {
@@ -27,10 +27,11 @@ img {
 
 .col-md {
   color: orange;
+}
 
 /*id selector*/
 #thatlink{
-    color:MediumSeaGreen;
+    color: MediumSeaGreen;
 }
 
 /*child selector-only direct children*/
